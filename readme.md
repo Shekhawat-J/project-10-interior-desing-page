@@ -3,9 +3,9 @@
 
 
 # Live Link
-[Live Link](https://github.com/Shekhawat-J/project-10-interior-desing-page)
+[GitHub Link](https://github.com/Shekhawat-J/project-10-interior-desing-page)
 
-[GitHub Link](https://interior-design-page-ui.netlify.app/)
+[Live Link](https://interior-design-page-ui.netlify.app/)
 
 #
 
