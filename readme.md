@@ -3,9 +3,9 @@
 
 
 # Live Link
-[Live Link](https://saas-landing-page-ui.netlify.app/)
+[Live Link](https://github.com/Shekhawat-J/project-10-interior-desing-page)
 
-[GitHub Link](https://github.com/Shekhawat-J/project-13-SAAS-Landing-Page)
+[GitHub Link](https://interior-design-page-ui.netlify.app/)
 
 #
 
