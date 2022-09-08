@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    /* background-position: center; */
+}
+
+.container{
+    margin: 3vh 3vh;
+}
+
+
+/* Navigation section */
+.nav-bar{
+    display: flex;
+    margin: 5px 5px;
+}
+
+.logo{
+    flex: 0.3;
+    padding: 5px 5px;
+}
+
+.nav-items{
+    display: flex;
+    flex: 0.7;
+    justify-content: left;
+    border-bottom: #ffffff solid 2px;
+}
+.nav-item{
+    font-size: 25px;
+    color: #ffffff;
+    margin: 5px;
+    margin-right: 35px;
+    text-decoration: none;
+}
+.call-us{
+    display: flex;
+    color: #ffffff;
+    margin: 5px;
+    margin-right: 0;
+    margin-left: 12vh;
+}
+
+.call-icon{
+    margin-right: 10px;
+}
+
+.call-text{
+    font-size: 15px;
+}
+
+/* main section  */
+
+
+/* top section  */
+.top-section{
+    display: flex;
+}
+
+.top-section h1{
+    flex: 0.5;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 15vh;
+    margin-left: 10vh;
+}
+
+.cards{
+    flex: 0.5;
+    position: relative;
+}
+
+.card{
+    background-color: #314A5B;
+    /* opacity: 0.5; */
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+
+.img{
+    background-color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+.img img{
+    padding: 5px 30px;
+}
+
+.card p{
+    color:#ffffff;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.cards>img{
+    position: absolute;
+    top: 0;
+}
+/* bottom section */
+.bottom-section{
+    display: flex;
+}
+
+.button{
+    flex:0.4;
+}
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+    border-radius: 25px;
+    padding: 15px 35px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    font-weight: 900;
+}
+
+
+/* adding line to both the cards */
+
+.top-section .card::after{
+    content: url('./images/line.png');
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    bottom: 45px;
+    right: 60%;
+}
+
+.bottom-section .card::after{
+    content: url('./images/line.png');
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    bottom: 80px;
+    right: 51%;
+    transform: rotate(270deg);
+}
